@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000145] (-) JobUnselected: {'identifier': 'signal'}
+[0.000187] (-) JobUnselected: {'identifier': 'task1'}
+[0.000205] (task2) JobQueued: {'identifier': 'task2', 'dependencies': OrderedDict()}
+[0.000687] (task2) JobStarted: {'identifier': 'task2'}
+[0.020468] (task2) JobProgress: {'identifier': 'task2', 'progress': 'cmake'}
+[0.021369] (task2) JobProgress: {'identifier': 'task2', 'progress': 'build'}
+[0.022150] (task2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/ros2project/build/task2', '--', '-j8', '-l8'], 'cwd': '/workspaces/ros2project/build/task2', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'DESKTOP-AU9K005', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/385651c938df8a906869babee516bffd0ddb9829/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/385651c938df8a906869babee516bffd0ddb9829/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/workspaces/ros2project', 'TERM_PROGRAM_VERSION': '1.104.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-eb8357d1-28f5-407f-b9c9-4bd6ea110160.sock', 'ZSH': '/home/ubuntu/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'more', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/385651c938df8a906869babee516bffd0ddb9829/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/385651c938df8a906869babee516bffd0ddb9829/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'REMOTE_CONTAINERS': 'true', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'WAYLAND_DISPLAY': 'vscode-wayland-1d01f4b3-1d0f-409e-a606-e7e22bd79d36.sock', 'COLCON_PREFIX_PATH': '/workspaces/ros2project/install', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-fa70341a-7405-40a5-99f1-940c85a9e334.sock', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'USER_ZDOTDIR': '/home/ubuntu', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/385651c938df8a906869babee516bffd0ddb9829/bin/remote-cli:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvim-linux-x86_64/bin:/workspaces/RMCS/.script:/opt/nvim-linux-x86_64/bin:/workspaces/RMCS/.script', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'DISPLAY': ':0', 'REMOTE_CONTAINERS_SOCKETS': '["/home/ubuntu/.gnupg/S.gpg-agent"]', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ubuntu/.vscode-server/data/User/workspaceStorage/26f36179ec25989b80e30db5c48de278/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-6530eee26b.sock', 'DEBIAN_FRONTEND': 'noninteractive', 'AMENT_PREFIX_PATH': '/workspaces/ros2project/install/task2:/workspaces/ros2project/install/task1:/workspaces/ros2project/install/cpp_pubsub:/opt/ros/jazzy', 'WORKDIR': '/home/ubuntu', 'SHELL': '/bin/zsh', 'RMCS_ROBOT_TYPE': '', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'LC_ALL': 'C.UTF-8', 'PWD': '/workspaces/ros2project/build/task2', 'ZDOTDIR': '/home/ubuntu', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Asia/Shanghai', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspaces/ros2project/install/task2:/workspaces/ros2project/install/task1:/workspaces/ros2project/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.062259] (task2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.102343] (-) TimerEvent: {}
+[0.204868] (-) TimerEvent: {}
+[0.266539] (task2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.306333] (-) TimerEvent: {}
+[0.325663] (task2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.338243] (task2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.356726] (task2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.376076] (task2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.408314] (-) TimerEvent: {}
+[0.458017] (task2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.460842] (task2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.508624] (-) TimerEvent: {}
+[0.548538] (task2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.609941] (-) TimerEvent: {}
+[0.694361] (task2) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.710728] (-) TimerEvent: {}
+[0.713661] (task2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.810110] (task2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.810350] (task2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.810408] (task2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.810822] (-) TimerEvent: {}
+[0.811219] (task2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.812350] (task2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.812477] (task2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.812880] (task2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.814991] (task2) StdoutLine: {'line': b'-- Configuring done (0.8s)\n'}
+[0.839374] (task2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.845492] (task2) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/ros2project/build/task2\n'}
+[0.880088] (task2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.880423] (task2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.911073] (-) TimerEvent: {}
+[1.011540] (-) TimerEvent: {}
+[1.112389] (-) TimerEvent: {}
+[1.212995] (-) TimerEvent: {}
+[1.314507] (-) TimerEvent: {}
+[1.416684] (-) TimerEvent: {}
+[1.518925] (-) TimerEvent: {}
+[1.620857] (-) TimerEvent: {}
+[1.723595] (-) TimerEvent: {}
+[1.825905] (-) TimerEvent: {}
+[1.928020] (-) TimerEvent: {}
+[2.031024] (-) TimerEvent: {}
+[2.133617] (-) TimerEvent: {}
+[2.235719] (-) TimerEvent: {}
+[2.338708] (-) TimerEvent: {}
+[2.441166] (-) TimerEvent: {}
+[2.543295] (-) TimerEvent: {}
+[2.645791] (-) TimerEvent: {}
+[2.746567] (-) TimerEvent: {}
+[2.848342] (-) TimerEvent: {}
+[2.948860] (-) TimerEvent: {}
+[3.049289] (-) TimerEvent: {}
+[3.149825] (-) TimerEvent: {}
+[3.250317] (-) TimerEvent: {}
+[3.350809] (-) TimerEvent: {}
+[3.451254] (-) TimerEvent: {}
+[3.551695] (-) TimerEvent: {}
+[3.652255] (-) TimerEvent: {}
+[3.752770] (-) TimerEvent: {}
+[3.853268] (-) TimerEvent: {}
+[3.953668] (-) TimerEvent: {}
+[4.054089] (-) TimerEvent: {}
+[4.154463] (-) TimerEvent: {}
+[4.254884] (-) TimerEvent: {}
+[4.355267] (-) TimerEvent: {}
+[4.455685] (-) TimerEvent: {}
+[4.556129] (-) TimerEvent: {}
+[4.656569] (-) TimerEvent: {}
+[4.756962] (-) TimerEvent: {}
+[4.857352] (-) TimerEvent: {}
+[4.957779] (-) TimerEvent: {}
+[5.058169] (-) TimerEvent: {}
+[5.158645] (-) TimerEvent: {}
+[5.259085] (-) TimerEvent: {}
+[5.359512] (-) TimerEvent: {}
+[5.460055] (-) TimerEvent: {}
+[5.560508] (-) TimerEvent: {}
+[5.660990] (-) TimerEvent: {}
+[5.761564] (-) TimerEvent: {}
+[5.862057] (-) TimerEvent: {}
+[5.898598] (task2) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.962275] (-) TimerEvent: {}
+[6.062699] (-) TimerEvent: {}
+[6.143166] (task2) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[6.162933] (-) TimerEvent: {}
+[6.263332] (-) TimerEvent: {}
+[6.363733] (-) TimerEvent: {}
+[6.464196] (-) TimerEvent: {}
+[6.564618] (-) TimerEvent: {}
+[6.665027] (-) TimerEvent: {}
+[6.765359] (-) TimerEvent: {}
+[6.865757] (-) TimerEvent: {}
+[6.966185] (-) TimerEvent: {}
+[7.066582] (-) TimerEvent: {}
+[7.167006] (-) TimerEvent: {}
+[7.267396] (-) TimerEvent: {}
+[7.367803] (-) TimerEvent: {}
+[7.468228] (-) TimerEvent: {}
+[7.568761] (-) TimerEvent: {}
+[7.669149] (-) TimerEvent: {}
+[7.769639] (-) TimerEvent: {}
+[7.870011] (-) TimerEvent: {}
+[7.970384] (-) TimerEvent: {}
+[8.070786] (-) TimerEvent: {}
+[8.171233] (-) TimerEvent: {}
+[8.271648] (-) TimerEvent: {}
+[8.372314] (-) TimerEvent: {}
+[8.472831] (-) TimerEvent: {}
+[8.568698] (task2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[8.573000] (-) TimerEvent: {}
+[8.673384] (-) TimerEvent: {}
+[8.773948] (-) TimerEvent: {}
+[8.792236] (task2) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[8.805017] (task2) CommandEnded: {'returncode': 0}
+[8.805808] (task2) JobProgress: {'identifier': 'task2', 'progress': 'install'}
+[8.814655] (task2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/ros2project/build/task2'], 'cwd': '/workspaces/ros2project/build/task2', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'DESKTOP-AU9K005', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/385651c938df8a906869babee516bffd0ddb9829/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/385651c938df8a906869babee516bffd0ddb9829/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/workspaces/ros2project', 'TERM_PROGRAM_VERSION': '1.104.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-eb8357d1-28f5-407f-b9c9-4bd6ea110160.sock', 'ZSH': '/home/ubuntu/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'more', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/385651c938df8a906869babee516bffd0ddb9829/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/385651c938df8a906869babee516bffd0ddb9829/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'REMOTE_CONTAINERS': 'true', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'WAYLAND_DISPLAY': 'vscode-wayland-1d01f4b3-1d0f-409e-a606-e7e22bd79d36.sock', 'COLCON_PREFIX_PATH': '/workspaces/ros2project/install', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-fa70341a-7405-40a5-99f1-940c85a9e334.sock', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'USER_ZDOTDIR': '/home/ubuntu', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/385651c938df8a906869babee516bffd0ddb9829/bin/remote-cli:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvim-linux-x86_64/bin:/workspaces/RMCS/.script:/opt/nvim-linux-x86_64/bin:/workspaces/RMCS/.script', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'DISPLAY': ':0', 'REMOTE_CONTAINERS_SOCKETS': '["/home/ubuntu/.gnupg/S.gpg-agent"]', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ubuntu/.vscode-server/data/User/workspaceStorage/26f36179ec25989b80e30db5c48de278/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-6530eee26b.sock', 'DEBIAN_FRONTEND': 'noninteractive', 'AMENT_PREFIX_PATH': '/workspaces/ros2project/install/task2:/workspaces/ros2project/install/task1:/workspaces/ros2project/install/cpp_pubsub:/opt/ros/jazzy', 'WORKDIR': '/home/ubuntu', 'SHELL': '/bin/zsh', 'RMCS_ROBOT_TYPE': '', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'LC_ALL': 'C.UTF-8', 'PWD': '/workspaces/ros2project/build/task2', 'ZDOTDIR': '/home/ubuntu', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Asia/Shanghai', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspaces/ros2project/install/task2:/workspaces/ros2project/install/task1:/workspaces/ros2project/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[8.821934] (task2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.822377] (task2) StdoutLine: {'line': b'-- Installing: /workspaces/ros2project/install/task2/lib/task2/talker\n'}
+[8.823502] (task2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/ros2project/install/task2/lib/task2/talker" to ""\n'}
+[8.823631] (task2) StdoutLine: {'line': b'-- Installing: /workspaces/ros2project/install/task2/lib/task2/listener\n'}
+[8.827051] (task2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/ros2project/install/task2/lib/task2/listener" to ""\n'}
+[8.827240] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/ament_index/resource_index/package_run_dependencies/task2\n'}
+[8.827294] (task2) StdoutLine: {'line': b'-- Installing: /workspaces/ros2project/install/task2/share/ament_index/resource_index/parent_prefix_path/task2\n'}
+[8.827703] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/task2/environment/ament_prefix_path.sh\n'}
+[8.827817] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/task2/environment/ament_prefix_path.dsv\n'}
+[8.828064] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/task2/environment/path.sh\n'}
+[8.828180] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/task2/environment/path.dsv\n'}
+[8.828231] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/task2/local_setup.bash\n'}
+[8.828279] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/task2/local_setup.sh\n'}
+[8.828326] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/task2/local_setup.zsh\n'}
+[8.828435] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/task2/local_setup.dsv\n'}
+[8.828592] (task2) StdoutLine: {'line': b'-- Installing: /workspaces/ros2project/install/task2/share/task2/package.dsv\n'}
+[8.828833] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/ament_index/resource_index/packages/task2\n'}
+[8.828904] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/task2/cmake/task2Config.cmake\n'}
+[8.828953] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/task2/cmake/task2Config-version.cmake\n'}
+[8.828999] (task2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/task2/share/task2/package.xml\n'}
+[8.830211] (task2) CommandEnded: {'returncode': 0}
+[8.850500] (task2) JobEnded: {'identifier': 'task2', 'rc': 0}
+[8.851948] (-) EventReactorShutdown: {}

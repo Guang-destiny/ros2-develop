@@ -1,0 +1,5 @@
+[0.011s] Invoking command in '/workspaces/ros2project/build/task1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task1 -- -j8 -l8
+[0.034s] [0mCMake Error: The source directory "/workspaces/ros2project/task1" does not exist.
+[0.034s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.035s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.037s] Invoked command in '/workspaces/ros2project/build/task1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task1 -- -j8 -l8

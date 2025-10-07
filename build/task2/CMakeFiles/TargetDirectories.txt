@@ -1,0 +1,11 @@
+/workspaces/ros2project/build/task2/CMakeFiles/uninstall.dir
+/workspaces/ros2project/build/task2/CMakeFiles/task2_uninstall.dir
+/workspaces/ros2project/build/task2/CMakeFiles/talker.dir
+/workspaces/ros2project/build/task2/CMakeFiles/listener.dir
+/workspaces/ros2project/build/task2/CMakeFiles/test.dir
+/workspaces/ros2project/build/task2/CMakeFiles/edit_cache.dir
+/workspaces/ros2project/build/task2/CMakeFiles/rebuild_cache.dir
+/workspaces/ros2project/build/task2/CMakeFiles/list_install_components.dir
+/workspaces/ros2project/build/task2/CMakeFiles/install.dir
+/workspaces/ros2project/build/task2/CMakeFiles/install/local.dir
+/workspaces/ros2project/build/task2/CMakeFiles/install/strip.dir

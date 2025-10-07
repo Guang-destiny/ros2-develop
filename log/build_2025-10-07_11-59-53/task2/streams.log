@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/workspaces/ros2project/build/task2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task2 -- -j8 -l8
+[0.054s] Invoked command in '/workspaces/ros2project/build/task2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task2 -- -j8 -l8
+[0.063s] Invoking command in '/workspaces/ros2project/build/task2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/task2
+[0.070s] -- Install configuration: ""
+[0.070s] -- Up-to-date: /workspaces/ros2project/install/task2/share/ament_index/resource_index/package_run_dependencies/task2
+[0.070s] -- Up-to-date: /workspaces/ros2project/install/task2/share/ament_index/resource_index/parent_prefix_path/task2
+[0.071s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/environment/ament_prefix_path.sh
+[0.071s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/environment/ament_prefix_path.dsv
+[0.071s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/environment/path.sh
+[0.071s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/environment/path.dsv
+[0.071s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/local_setup.bash
+[0.071s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/local_setup.sh
+[0.071s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/local_setup.zsh
+[0.071s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/local_setup.dsv
+[0.071s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/package.dsv
+[0.071s] -- Up-to-date: /workspaces/ros2project/install/task2/share/ament_index/resource_index/packages/task2
+[0.071s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/cmake/task2Config.cmake
+[0.071s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/cmake/task2Config-version.cmake
+[0.072s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/package.xml
+[0.073s] Invoked command in '/workspaces/ros2project/build/task2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/task2

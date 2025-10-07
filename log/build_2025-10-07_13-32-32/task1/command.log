@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/ros2project/build/task1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task1 -- -j8 -l8
+Invoked command in '/workspaces/ros2project/build/task1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task1 -- -j8 -l8

@@ -1,0 +1,51 @@
+[0.022s] Invoking command in '/workspaces/ros2project/build/task2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task2 -- -j8 -l8
+[0.062s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.266s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.325s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.338s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.458s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.460s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.548s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.694s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.713s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.810s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.810s] -- Configured cppcheck include dirs: 
+[0.810s] -- Configured cppcheck exclude dirs and/or files: 
+[0.811s] -- Added test 'lint_cmake' to check CMake code style
+[0.812s] -- Added test 'uncrustify' to check C / C++ code style
+[0.812s] -- Configured uncrustify additional arguments: 
+[0.812s] -- Added test 'xmllint' to check XML markup files
+[0.814s] -- Configuring done (0.8s)
+[0.839s] -- Generating done (0.0s)
+[0.845s] -- Build files have been written to: /workspaces/ros2project/build/task2
+[0.880s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[0.880s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[5.898s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[6.143s] [ 75%] Built target talker
+[8.568s] [100%] [32m[1mLinking CXX executable listener[0m
+[8.792s] [100%] Built target listener
+[8.805s] Invoked command in '/workspaces/ros2project/build/task2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task2 -- -j8 -l8
+[8.815s] Invoking command in '/workspaces/ros2project/build/task2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/task2
+[8.822s] -- Install configuration: ""
+[8.822s] -- Installing: /workspaces/ros2project/install/task2/lib/task2/talker
+[8.823s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2project/install/task2/lib/task2/talker" to ""
+[8.823s] -- Installing: /workspaces/ros2project/install/task2/lib/task2/listener
+[8.827s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2project/install/task2/lib/task2/listener" to ""
+[8.827s] -- Up-to-date: /workspaces/ros2project/install/task2/share/ament_index/resource_index/package_run_dependencies/task2
+[8.827s] -- Installing: /workspaces/ros2project/install/task2/share/ament_index/resource_index/parent_prefix_path/task2
+[8.827s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/environment/ament_prefix_path.sh
+[8.827s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/environment/ament_prefix_path.dsv
+[8.827s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/environment/path.sh
+[8.828s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/environment/path.dsv
+[8.828s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/local_setup.bash
+[8.828s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/local_setup.sh
+[8.828s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/local_setup.zsh
+[8.828s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/local_setup.dsv
+[8.828s] -- Installing: /workspaces/ros2project/install/task2/share/task2/package.dsv
+[8.828s] -- Up-to-date: /workspaces/ros2project/install/task2/share/ament_index/resource_index/packages/task2
+[8.828s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/cmake/task2Config.cmake
+[8.828s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/cmake/task2Config-version.cmake
+[8.828s] -- Up-to-date: /workspaces/ros2project/install/task2/share/task2/package.xml
+[8.830s] Invoked command in '/workspaces/ros2project/build/task2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/task2

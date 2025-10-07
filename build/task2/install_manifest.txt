@@ -1,0 +1,17 @@
+/workspaces/ros2project/install/task2/lib/task2/talker
+/workspaces/ros2project/install/task2/lib/task2/listener
+/workspaces/ros2project/install/task2/share/ament_index/resource_index/package_run_dependencies/task2
+/workspaces/ros2project/install/task2/share/ament_index/resource_index/parent_prefix_path/task2
+/workspaces/ros2project/install/task2/share/task2/environment/ament_prefix_path.sh
+/workspaces/ros2project/install/task2/share/task2/environment/ament_prefix_path.dsv
+/workspaces/ros2project/install/task2/share/task2/environment/path.sh
+/workspaces/ros2project/install/task2/share/task2/environment/path.dsv
+/workspaces/ros2project/install/task2/share/task2/local_setup.bash
+/workspaces/ros2project/install/task2/share/task2/local_setup.sh
+/workspaces/ros2project/install/task2/share/task2/local_setup.zsh
+/workspaces/ros2project/install/task2/share/task2/local_setup.dsv
+/workspaces/ros2project/install/task2/share/task2/package.dsv
+/workspaces/ros2project/install/task2/share/ament_index/resource_index/packages/task2
+/workspaces/ros2project/install/task2/share/task2/cmake/task2Config.cmake
+/workspaces/ros2project/install/task2/share/task2/cmake/task2Config-version.cmake
+/workspaces/ros2project/install/task2/share/task2/package.xml

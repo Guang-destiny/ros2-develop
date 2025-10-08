@@ -2,4 +2,6 @@
 
 RoboMaster-南京理工大学Alliance战队2026赛季培训使用
 
+此项目fork了南京理工大学Alliance战队的培训成员ros2开发环境，新建了task1,task2两个包，分别对应任务一和任务二。这两个包的发出执行文件都名talker,接收执行文件都名叫listener。如果想要找到执行文件，可在install文件中对应包名称文件的lib中找到
+
 本质上是RMCS项目 (https://github.com/Alliance-Algorithm/RMCS) 去除了全部的ros2包，提供一个docker启动的ROS2开发环境，供2026赛季算法组培训成员作业使用

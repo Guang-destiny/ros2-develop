@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.001278] (-) JobUnselected: {'identifier': 'filter'}
+[0.001390] (-) JobUnselected: {'identifier': 'motor_pid'}
+[0.001464] (-) JobUnselected: {'identifier': 'motor_simulator'}
+[0.001521] (-) JobUnselected: {'identifier': 'task1'}
+[0.001584] (-) JobUnselected: {'identifier': 'task2'}
+[0.001656] (pid2) JobQueued: {'identifier': 'pid2', 'dependencies': OrderedDict()}
+[0.001733] (pid2) JobStarted: {'identifier': 'pid2'}
+[0.038731] (pid2) JobProgress: {'identifier': 'pid2', 'progress': 'cmake'}
+[0.040172] (pid2) JobProgress: {'identifier': 'pid2', 'progress': 'build'}
+[0.041862] (pid2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/ros2project/build/pid2', '--', '-j8', '-l8'], 'cwd': '/workspaces/ros2project/build/pid2', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'DESKTOP-AU9K005', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/workspaces/ros2project', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-975d1b3c-d685-4bcf-98ae-05fd45b25d63.sock', 'ZSH': '/home/ubuntu/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'more', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'REMOTE_CONTAINERS': 'true', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'WAYLAND_DISPLAY': 'vscode-wayland-1d01f4b3-1d0f-409e-a606-e7e22bd79d36.sock', 'COLCON_PREFIX_PATH': '/workspaces/ros2project/install', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ebf04f85-58dc-4347-8055-3286907fd3ee.sock', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'USER_ZDOTDIR': '/home/ubuntu', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvim-linux-x86_64/bin:/workspaces/RMCS/.script:/opt/nvim-linux-x86_64/bin:/workspaces/RMCS/.script', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'DISPLAY': ':0', 'REMOTE_CONTAINERS_SOCKETS': '["/home/ubuntu/.gnupg/S.gpg-agent"]', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ubuntu/.vscode-server/data/User/workspaceStorage/26f36179ec25989b80e30db5c48de278/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-6530eee26b.sock', 'DEBIAN_FRONTEND': 'noninteractive', 'AMENT_PREFIX_PATH': '/workspaces/ros2project/install/task2:/workspaces/ros2project/install/task1:/workspaces/ros2project/install/pid2:/workspaces/ros2project/install/motor_simulator:/workspaces/ros2project/install/motor_pid:/workspaces/ros2project/install/filter:/opt/ros/jazzy', 'WORKDIR': '/home/ubuntu', 'SHELL': '/bin/zsh', 'RMCS_ROBOT_TYPE': '', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'LC_ALL': 'C.UTF-8', 'PWD': '/workspaces/ros2project/build/pid2', 'ZDOTDIR': '/home/ubuntu', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Asia/Shanghai', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspaces/ros2project/install/task2:/workspaces/ros2project/install/task1:/workspaces/ros2project/install/pid2:/workspaces/ros2project/install/motor_simulator:/workspaces/ros2project/install/motor_pid:/workspaces/ros2project/install/filter:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.102504] (-) TimerEvent: {}
+[0.203010] (-) TimerEvent: {}
+[0.238971] (pid2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pid.dir/src/pid.cpp.o\x1b[0m\n'}
+[0.303240] (-) TimerEvent: {}
+[0.405810] (-) TimerEvent: {}
+[0.508786] (-) TimerEvent: {}
+[0.609512] (-) TimerEvent: {}
+[0.710013] (-) TimerEvent: {}
+[0.810510] (-) TimerEvent: {}
+[0.911034] (-) TimerEvent: {}
+[1.011531] (-) TimerEvent: {}
+[1.112063] (-) TimerEvent: {}
+[1.212573] (-) TimerEvent: {}
+[1.313111] (-) TimerEvent: {}
+[1.413636] (-) TimerEvent: {}
+[1.514164] (-) TimerEvent: {}
+[1.614710] (-) TimerEvent: {}
+[1.715342] (-) TimerEvent: {}
+[1.815882] (-) TimerEvent: {}
+[1.916419] (-) TimerEvent: {}
+[2.016878] (-) TimerEvent: {}
+[2.117414] (-) TimerEvent: {}
+[2.218566] (-) TimerEvent: {}
+[2.319088] (-) TimerEvent: {}
+[2.419705] (-) TimerEvent: {}
+[2.520249] (-) TimerEvent: {}
+[2.620812] (-) TimerEvent: {}
+[2.721494] (-) TimerEvent: {}
+[2.821959] (-) TimerEvent: {}
+[2.922461] (-) TimerEvent: {}
+[3.023025] (-) TimerEvent: {}
+[3.123530] (-) TimerEvent: {}
+[3.224059] (-) TimerEvent: {}
+[3.324547] (-) TimerEvent: {}
+[3.425065] (-) TimerEvent: {}
+[3.525608] (-) TimerEvent: {}
+[3.626138] (-) TimerEvent: {}
+[3.726659] (-) TimerEvent: {}
+[3.827252] (-) TimerEvent: {}
+[3.927851] (-) TimerEvent: {}
+[4.028396] (-) TimerEvent: {}
+[4.128873] (-) TimerEvent: {}
+[4.229410] (-) TimerEvent: {}
+[4.330001] (-) TimerEvent: {}
+[4.430572] (-) TimerEvent: {}
+[4.531116] (-) TimerEvent: {}
+[4.631702] (-) TimerEvent: {}
+[4.732250] (-) TimerEvent: {}
+[4.832806] (-) TimerEvent: {}
+[4.933326] (-) TimerEvent: {}
+[5.035387] (-) TimerEvent: {}
+[5.135956] (-) TimerEvent: {}
+[5.236509] (-) TimerEvent: {}
+[5.337046] (-) TimerEvent: {}
+[5.437662] (-) TimerEvent: {}
+[5.538229] (-) TimerEvent: {}
+[5.638740] (-) TimerEvent: {}
+[5.739355] (-) TimerEvent: {}
+[5.839854] (-) TimerEvent: {}
+[5.940322] (-) TimerEvent: {}
+[6.040818] (-) TimerEvent: {}
+[6.141371] (-) TimerEvent: {}
+[6.241885] (-) TimerEvent: {}
+[6.342713] (-) TimerEvent: {}
+[6.443530] (-) TimerEvent: {}
+[6.543990] (-) TimerEvent: {}
+[6.644505] (-) TimerEvent: {}
+[6.745002] (-) TimerEvent: {}
+[6.845429] (-) TimerEvent: {}
+[6.945916] (-) TimerEvent: {}
+[7.046420] (-) TimerEvent: {}
+[7.146901] (-) TimerEvent: {}
+[7.247546] (-) TimerEvent: {}
+[7.348069] (-) TimerEvent: {}
+[7.448589] (-) TimerEvent: {}
+[7.549117] (-) TimerEvent: {}
+[7.649612] (-) TimerEvent: {}
+[7.750046] (-) TimerEvent: {}
+[7.850517] (-) TimerEvent: {}
+[7.951066] (-) TimerEvent: {}
+[8.051538] (-) TimerEvent: {}
+[8.152076] (-) TimerEvent: {}
+[8.252605] (-) TimerEvent: {}
+[8.353160] (-) TimerEvent: {}
+[8.453726] (-) TimerEvent: {}
+[8.555220] (-) TimerEvent: {}
+[8.655749] (-) TimerEvent: {}
+[8.756349] (-) TimerEvent: {}
+[8.856849] (-) TimerEvent: {}
+[8.957327] (-) TimerEvent: {}
+[9.062755] (-) TimerEvent: {}
+[9.163273] (-) TimerEvent: {}
+[9.263788] (-) TimerEvent: {}
+[9.364275] (-) TimerEvent: {}
+[9.464784] (-) TimerEvent: {}
+[9.565260] (-) TimerEvent: {}
+[9.665800] (-) TimerEvent: {}
+[9.766261] (-) TimerEvent: {}
+[9.866757] (-) TimerEvent: {}
+[9.967200] (-) TimerEvent: {}
+[10.067755] (-) TimerEvent: {}
+[10.168285] (-) TimerEvent: {}
+[10.268818] (-) TimerEvent: {}
+[10.369299] (-) TimerEvent: {}
+[10.469863] (-) TimerEvent: {}
+[10.570411] (-) TimerEvent: {}
+[10.671024] (-) TimerEvent: {}
+[10.771531] (-) TimerEvent: {}
+[10.872080] (-) TimerEvent: {}
+[10.972656] (-) TimerEvent: {}
+[11.073209] (-) TimerEvent: {}
+[11.173799] (-) TimerEvent: {}
+[11.274362] (-) TimerEvent: {}
+[11.374913] (-) TimerEvent: {}
+[11.475482] (-) TimerEvent: {}
+[11.575955] (-) TimerEvent: {}
+[11.676408] (-) TimerEvent: {}
+[11.776809] (-) TimerEvent: {}
+[11.877310] (-) TimerEvent: {}
+[11.977823] (-) TimerEvent: {}
+[12.078324] (-) TimerEvent: {}
+[12.178841] (-) TimerEvent: {}
+[12.279284] (-) TimerEvent: {}
+[12.379812] (-) TimerEvent: {}
+[12.480324] (-) TimerEvent: {}
+[12.580885] (-) TimerEvent: {}
+[12.681385] (-) TimerEvent: {}
+[12.781847] (-) TimerEvent: {}
+[12.882308] (-) TimerEvent: {}
+[12.982771] (-) TimerEvent: {}
+[13.083195] (-) TimerEvent: {}
+[13.183702] (-) TimerEvent: {}
+[13.284202] (-) TimerEvent: {}
+[13.384940] (-) TimerEvent: {}
+[13.485615] (-) TimerEvent: {}
+[13.586160] (-) TimerEvent: {}
+[13.686660] (-) TimerEvent: {}
+[13.787231] (-) TimerEvent: {}
+[13.887818] (-) TimerEvent: {}
+[13.988291] (-) TimerEvent: {}
+[14.088794] (-) TimerEvent: {}
+[14.189290] (-) TimerEvent: {}
+[14.289742] (-) TimerEvent: {}
+[14.390194] (-) TimerEvent: {}
+[14.490723] (-) TimerEvent: {}
+[14.591215] (-) TimerEvent: {}
+[14.691749] (-) TimerEvent: {}
+[14.792155] (-) TimerEvent: {}
+[14.892622] (-) TimerEvent: {}
+[14.993149] (-) TimerEvent: {}
+[15.093642] (-) TimerEvent: {}
+[15.194159] (-) TimerEvent: {}
+[15.294620] (-) TimerEvent: {}
+[15.395134] (-) TimerEvent: {}
+[15.495690] (-) TimerEvent: {}
+[15.596848] (-) TimerEvent: {}
+[15.697320] (-) TimerEvent: {}
+[15.797845] (-) TimerEvent: {}
+[15.898353] (-) TimerEvent: {}
+[15.998943] (-) TimerEvent: {}
+[16.099744] (-) TimerEvent: {}
+[16.200197] (-) TimerEvent: {}
+[16.300753] (-) TimerEvent: {}
+[16.401286] (-) TimerEvent: {}
+[16.501852] (-) TimerEvent: {}
+[16.602408] (-) TimerEvent: {}
+[16.702941] (-) TimerEvent: {}
+[16.803496] (-) TimerEvent: {}
+[16.903977] (-) TimerEvent: {}
+[17.004434] (-) TimerEvent: {}
+[17.105001] (-) TimerEvent: {}
+[17.205540] (-) TimerEvent: {}
+[17.306000] (-) TimerEvent: {}
+[17.406470] (-) TimerEvent: {}
+[17.506967] (-) TimerEvent: {}
+[17.607514] (-) TimerEvent: {}
+[17.708085] (-) TimerEvent: {}
+[17.808597] (-) TimerEvent: {}
+[17.909117] (-) TimerEvent: {}
+[18.009615] (-) TimerEvent: {}
+[18.110137] (-) TimerEvent: {}
+[18.210616] (-) TimerEvent: {}
+[18.311052] (-) TimerEvent: {}
+[18.411559] (-) TimerEvent: {}
+[18.512031] (-) TimerEvent: {}
+[18.612507] (-) TimerEvent: {}
+[18.712973] (-) TimerEvent: {}
+[18.813410] (-) TimerEvent: {}
+[18.913917] (-) TimerEvent: {}
+[19.014410] (-) TimerEvent: {}
+[19.114846] (-) TimerEvent: {}
+[19.215262] (-) TimerEvent: {}
+[19.315797] (-) TimerEvent: {}
+[19.416544] (-) TimerEvent: {}
+[19.517771] (-) TimerEvent: {}
+[19.618529] (-) TimerEvent: {}
+[19.719468] (-) TimerEvent: {}
+[19.820824] (-) TimerEvent: {}
+[19.921293] (-) TimerEvent: {}
+[20.021795] (-) TimerEvent: {}
+[20.122319] (-) TimerEvent: {}
+[20.222815] (-) TimerEvent: {}
+[20.323307] (-) TimerEvent: {}
+[20.423863] (-) TimerEvent: {}
+[20.524371] (-) TimerEvent: {}
+[20.625036] (-) TimerEvent: {}
+[20.725625] (-) TimerEvent: {}
+[20.826071] (-) TimerEvent: {}
+[20.926612] (-) TimerEvent: {}
+[21.027110] (-) TimerEvent: {}
+[21.127629] (-) TimerEvent: {}
+[21.228152] (-) TimerEvent: {}
+[21.328713] (-) TimerEvent: {}
+[21.429264] (-) TimerEvent: {}
+[21.529748] (-) TimerEvent: {}
+[21.630199] (-) TimerEvent: {}
+[21.730680] (-) TimerEvent: {}
+[21.842107] (-) TimerEvent: {}
+[21.937511] (pid2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pid\x1b[0m\n'}
+[21.942293] (-) TimerEvent: {}
+[22.042868] (-) TimerEvent: {}
+[22.143892] (-) TimerEvent: {}
+[22.244431] (-) TimerEvent: {}
+[22.344999] (-) TimerEvent: {}
+[22.445616] (-) TimerEvent: {}
+[22.546445] (-) TimerEvent: {}
+[22.555109] (pid2) StdoutLine: {'line': b'[100%] Built target pid\n'}
+[22.596697] (pid2) CommandEnded: {'returncode': 0}
+[22.598044] (pid2) JobProgress: {'identifier': 'pid2', 'progress': 'install'}
+[22.615392] (pid2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/ros2project/build/pid2'], 'cwd': '/workspaces/ros2project/build/pid2', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'DESKTOP-AU9K005', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/workspaces/ros2project', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-975d1b3c-d685-4bcf-98ae-05fd45b25d63.sock', 'ZSH': '/home/ubuntu/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'more', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'REMOTE_CONTAINERS': 'true', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'WAYLAND_DISPLAY': 'vscode-wayland-1d01f4b3-1d0f-409e-a606-e7e22bd79d36.sock', 'COLCON_PREFIX_PATH': '/workspaces/ros2project/install', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ebf04f85-58dc-4347-8055-3286907fd3ee.sock', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'USER_ZDOTDIR': '/home/ubuntu', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvim-linux-x86_64/bin:/workspaces/RMCS/.script:/opt/nvim-linux-x86_64/bin:/workspaces/RMCS/.script', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'DISPLAY': ':0', 'REMOTE_CONTAINERS_SOCKETS': '["/home/ubuntu/.gnupg/S.gpg-agent"]', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ubuntu/.vscode-server/data/User/workspaceStorage/26f36179ec25989b80e30db5c48de278/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-6530eee26b.sock', 'DEBIAN_FRONTEND': 'noninteractive', 'AMENT_PREFIX_PATH': '/workspaces/ros2project/install/task2:/workspaces/ros2project/install/task1:/workspaces/ros2project/install/pid2:/workspaces/ros2project/install/motor_simulator:/workspaces/ros2project/install/motor_pid:/workspaces/ros2project/install/filter:/opt/ros/jazzy', 'WORKDIR': '/home/ubuntu', 'SHELL': '/bin/zsh', 'RMCS_ROBOT_TYPE': '', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'LC_ALL': 'C.UTF-8', 'PWD': '/workspaces/ros2project/build/pid2', 'ZDOTDIR': '/home/ubuntu', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Asia/Shanghai', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspaces/ros2project/install/task2:/workspaces/ros2project/install/task1:/workspaces/ros2project/install/pid2:/workspaces/ros2project/install/motor_simulator:/workspaces/ros2project/install/motor_pid:/workspaces/ros2project/install/filter:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[22.631767] (pid2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.632828] (pid2) StdoutLine: {'line': b'-- Installing: /workspaces/ros2project/install/pid2/lib/pid2/pid\n'}
+[22.641970] (pid2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/ros2project/install/pid2/lib/pid2/pid" to ""\n'}
+[22.642741] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/ament_index/resource_index/package_run_dependencies/pid2\n'}
+[22.643066] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/ament_index/resource_index/parent_prefix_path/pid2\n'}
+[22.643330] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/environment/ament_prefix_path.sh\n'}
+[22.643895] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/environment/ament_prefix_path.dsv\n'}
+[22.644096] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/environment/path.sh\n'}
+[22.644217] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/environment/path.dsv\n'}
+[22.644384] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/local_setup.bash\n'}
+[22.644515] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/local_setup.sh\n'}
+[22.644636] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/local_setup.zsh\n'}
+[22.644744] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/local_setup.dsv\n'}
+[22.644858] (pid2) StdoutLine: {'line': b'-- Installing: /workspaces/ros2project/install/pid2/share/pid2/package.dsv\n'}
+[22.645013] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/ament_index/resource_index/packages/pid2\n'}
+[22.645119] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/cmake/pid2Config.cmake\n'}
+[22.645225] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/cmake/pid2Config-version.cmake\n'}
+[22.645333] (pid2) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/package.xml\n'}
+[22.646685] (-) TimerEvent: {}
+[22.647170] (pid2) CommandEnded: {'returncode': 0}
+[22.698822] (pid2) JobEnded: {'identifier': 'pid2', 'rc': 0}
+[22.701011] (-) EventReactorShutdown: {}

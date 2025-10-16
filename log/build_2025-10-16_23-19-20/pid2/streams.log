@@ -1,0 +1,25 @@
+[0.058s] Invoking command in '/workspaces/ros2project/build/pid2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/pid2 -- -j8 -l8
+[0.307s] [ 50%] [32mBuilding CXX object CMakeFiles/pid.dir/src/pid.cpp.o[0m
+[40.916s] [100%] [32m[1mLinking CXX executable pid[0m
+[42.045s] [100%] Built target pid
+[42.100s] Invoked command in '/workspaces/ros2project/build/pid2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/pid2 -- -j8 -l8
+[42.155s] Invoking command in '/workspaces/ros2project/build/pid2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/pid2
+[42.184s] -- Install configuration: ""
+[42.184s] -- Installing: /workspaces/ros2project/install/pid2/lib/pid2/pid
+[42.206s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2project/install/pid2/lib/pid2/pid" to ""
+[42.206s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/ament_index/resource_index/package_run_dependencies/pid2
+[42.207s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/ament_index/resource_index/parent_prefix_path/pid2
+[42.207s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/environment/ament_prefix_path.sh
+[42.207s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/environment/ament_prefix_path.dsv
+[42.208s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/environment/path.sh
+[42.208s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/environment/path.dsv
+[42.208s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/local_setup.bash
+[42.208s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/local_setup.sh
+[42.208s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/local_setup.zsh
+[42.209s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/local_setup.dsv
+[42.209s] -- Installing: /workspaces/ros2project/install/pid2/share/pid2/package.dsv
+[42.209s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/ament_index/resource_index/packages/pid2
+[42.209s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/cmake/pid2Config.cmake
+[42.210s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/cmake/pid2Config-version.cmake
+[42.210s] -- Up-to-date: /workspaces/ros2project/install/pid2/share/pid2/package.xml
+[42.213s] Invoked command in '/workspaces/ros2project/build/pid2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/pid2

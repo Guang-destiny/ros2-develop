@@ -1,0 +1,172 @@
+[0.024s] Invoking command in '/workspaces/ros2project/build/pid2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/pid2 -- -j8 -l8
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/pid.dir/src/pid.cpp.o[0m
+[4.517s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:80:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_speed[m[K’ does not name a type
+[4.517s]    80 |         [01;31m[Kcurrent_speed[m[K = 0.8 * current_speed + 0.2 * raw_speed;
+[4.518s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[4.521s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:81:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_speed[m[K’ does not name a type
+[4.521s]    81 |         [01;31m[Kerror_speed[m[K=target_speed-current_speed;
+[4.521s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.525s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kintegral_speed[m[K’ does not name a type
+[4.526s]    82 |         [01;31m[Kintegral_speed[m[K +=error_speed * dt;
+[4.526s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.532s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:83:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kderivative_speed[m[K’ does not name a type
+[4.532s]    83 |         [01;31m[Kderivative_speed[m[K = (error_speed - last_error_speed) / dt;
+[4.532s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.535s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:84:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput_speed[m[K’ does not name a type
+[4.535s]    84 |         [01;31m[Koutput_speed[m[K = kp_speed * error_speed + ki_speed * integral_speed + kd_speed * derivative_speed;
+[4.535s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.539s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:87:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_msg[m[K’ does not name a type
+[4.539s]    87 |         [01;31m[Kcontrol_msg[m[K.data = output_speed;
+[4.539s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.543s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:88:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_pub_[m[K’ does not name a type
+[4.543s]    88 |         [01;31m[Kcontrol_pub_[m[K->publish(control_msg);
+[4.543s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.550s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:93:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_error_angle[m[K’ does not name a type
+[4.550s]    93 |         [01;31m[Klast_error_angle[m[K = error_angle;
+[4.550s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.556s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:94:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_error_speed[m[K’ does not name a type
+[4.556s]    94 |         [01;31m[Klast_error_speed[m[K=error_speed;
+[4.556s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.558s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:95:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_time[m[K’ does not name a type
+[4.558s]    95 |         [01;31m[Klast_time[m[K = current_time;
+[4.559s]       |         [01;31m[K^~~~~~~~~[m[K
+[4.563s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:96:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_output_speed[m[K’ does not name a type
+[4.564s]    96 |         [01;31m[Klast_output_speed[m[K=output_speed;
+[4.564s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.567s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:97:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_angle[m[K’ does not name a type
+[4.567s]    97 |         [01;31m[Klast_angle[m[K=current_angle;
+[4.567s]       |         [01;31m[K^~~~~~~~~~[m[K
+[4.582s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:79:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kfiltered_value_[m[K’ was not declared in this scope
+[4.583s]    79 |  double raw_speed = ([01;31m[Kfiltered_value_[m[K - last_angle) / dt;
+[4.583s]       |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.583s] 
+[4.593s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:79:47:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_angle[m[K’ was not declared in this scope
+[4.594s]    79 | = (filtered_value_ - [01;31m[Klast_angle[m[K) / dt;
+[4.594s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[4.594s] 
+[4.605s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:79:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kdt[m[K’ was not declared in this scope
+[4.605s]    79 | tered_value_ - last_angle) / [01;31m[Kdt[m[K;
+[4.605s]       |                              [01;31m[K^~[m[K
+[4.605s] 
+[4.618s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:[m[K In constructor ‘[01m[KMotorPID::[01;32m[KMotorPID[m[K()[m[K’:
+[4.619s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kkp_angle[m[K’ was not declared in this scope
+[4.619s]    13 |         [01;31m[Kkp_angle[m[K = 0.5;
+[4.619s]       |         [01;31m[K^~~~~~~~[m[K
+[4.638s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kki_angle[m[K’ was not declared in this scope
+[4.638s]    14 |         [01;31m[Kki_angle[m[K = 0.00;
+[4.638s]       |         [01;31m[K^~~~~~~~[m[K
+[4.651s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kkd_angle[m[K’ was not declared in this scope
+[4.651s]    15 |         [01;31m[Kkd_angle[m[K = 0.0001;
+[4.651s]       |         [01;31m[K^~~~~~~~[m[K
+[4.663s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kkp_speed[m[K’ was not declared in this scope; did you mean ‘[01m[Kraw_speed[m[K’?
+[4.663s]    16 |         [01;31m[Kkp_speed[m[K=0.5;
+[4.663s]       |         [01;31m[K^~~~~~~~[m[K
+[4.663s]       |         [32m[Kraw_speed[m[K
+[4.687s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kki_speed[m[K’ was not declared in this scope; did you mean ‘[01m[Kraw_speed[m[K’?
+[4.687s]    17 |         [01;31m[Kki_speed[m[K=0.00;
+[4.687s]       |         [01;31m[K^~~~~~~~[m[K
+[4.688s]       |         [32m[Kraw_speed[m[K
+[4.706s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kkd_speed[m[K’ was not declared in this scope; did you mean ‘[01m[Kraw_speed[m[K’?
+[4.706s]    18 |         [01;31m[Kkd_speed[m[K=0.0001;
+[4.707s]       |         [01;31m[K^~~~~~~~[m[K
+[4.707s]       |         [32m[Kraw_speed[m[K
+[4.743s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_angle[m[K’ was not declared in this scope
+[4.743s]    20 |         [01;31m[Ktarget_angle[m[K = 0.3*M_PI;
+[4.743s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.776s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_sub_[m[K’ was not declared in this scope
+[4.776s]    22 |         [01;31m[Kvelocity_sub_[m[K = this->create_subscription<std_msgs::msg::Float64>(
+[4.777s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[4.890s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcontrol_msg[m[K’?
+[4.890s]    26 |         [01;31m[Kcontrol_pub_[m[K = this->create_publisher<std_msgs::msg::Float64>(
+[4.891s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.891s]       |         [32m[Kcontrol_msg[m[K
+[4.909s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:[m[K In member function ‘[01m[Kvoid MotorPID::[01;32m[Kvelocity_callback[m[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.909s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_buffer_[m[K’ was not declared in this scope
+[4.909s]    39 |         [01;31m[Kdata_buffer_[m[K.push_back(new_value);
+[4.909s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.922s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:40:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kwindow_size_[m[K’ was not declared in this scope
+[4.923s]    40 | ata_buffer_.size() > [01;31m[Kwindow_size_[m[K) {
+[4.923s]       |                      [01;31m[K^~~~~~~~~~~~[m[K
+[4.923s] 
+[4.939s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:43:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kwindow_size_[m[K’ was not declared in this scope
+[4.939s]    43 | ta_buffer_.size() == [01;31m[Kwindow_size_[m[K) {
+[4.939s]       |                      [01;31m[K^~~~~~~~~~~~[m[K
+[4.940s] 
+[4.956s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:48:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmedian_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kmedian[m[K’?
+[4.956s]    48 |             [01;31m[Kmedian_msg[m[K.data = median;
+[4.956s]       |             [01;31m[K^~~~~~~~~~[m[K
+[4.957s]       |             [32m[Kmedian[m[K
+[4.974s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:53:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfiltered_value_[m[K’ was not declared in this scope
+[4.974s]    53 |         [01;31m[Kfiltered_value_[m[K = alpha_ * median_msg.data + (1 - alpha_) * filtered_value_;
+[4.975s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.988s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:53:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha_[m[K’ was not declared in this scope; did you mean ‘[01m[Kisalpha_l[m[K’?
+[4.988s]    53 |    filtered_value_ = [01;31m[Kalpha_[m[K * median_msg.data + (1 - alpha_) * filtered_value_;
+[4.988s]       |                      [01;31m[K^~~~~~[m[K
+[4.988s]       |                      [32m[Kisalpha_l[m[K
+[5.005s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:53:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmedian_msg[m[K’ was not declared in this scope
+[5.005s]    53 | ed_value_ = alpha_ * [01;31m[Kmedian_msg[m[K.data + (1 - alpha_) * filtered_value_;
+[5.005s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[5.006s] 
+[5.020s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:54:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klowpass_msg[m[K’ was not declared in this scope
+[5.020s]    54 |         [01;31m[Klowpass_msg[m[K.data = filtered_value_;
+[5.020s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[5.035s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_time[m[K’ was not declared in this scope
+[5.035s]    59 |         [01;31m[Kcurrent_time[m[K = this->now().seconds();
+[5.035s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[5.042s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:60:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdt[m[K’ was not declared in this scope
+[5.043s]    60 |         [01;31m[Kdt[m[K = current_time - last_time;
+[5.043s]       |         [01;31m[K^~[m[K
+[5.053s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:60:29:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kasctime[m[K’?
+[5.053s]    60 |   dt = current_time - [01;31m[Klast_time[m[K;
+[5.053s]       |                       [01;31m[K^~~~~~~~~[m[K
+[5.053s]       |                       [32m[Kasctime[m[K
+[5.067s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:67:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_angle[m[K’ was not declared in this scope
+[5.067s]    67 |         [01;31m[Kcurrent_angle[m[K = lowpass_msg.data;
+[5.067s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[5.078s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:69:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_angle[m[K’ was not declared in this scope
+[5.078s]    69 |         [01;31m[Kerror_angle[m[K = std::atan2(std::sin(target_angle - current_angle),
+[5.078s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[5.094s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:69:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_angle[m[K’ was not declared in this scope
+[5.094s]    69 |  std::atan2(std::sin([01;31m[Ktarget_angle[m[K - current_angle),
+[5.094s]       |                      [01;31m[K^~~~~~~~~~~~[m[K
+[5.094s] 
+[5.106s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:69:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_angle[m[K’ was not declared in this scope
+[5.107s]    69 | ::sin(target_angle - [01;31m[Kcurrent_angle[m[K),
+[5.107s]       |                      [01;31m[K^~~~~~~~~~~~~[m[K
+[5.107s] 
+[5.122s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:71:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kintegral_angle[m[K’ was not declared in this scope
+[5.122s]    71 |         [01;31m[Kintegral_angle[m[K += error_angle * dt;
+[5.122s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.141s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kderivative_angle[m[K’ was not declared in this scope
+[5.141s]    72 |         [01;31m[Kderivative_angle[m[K = (error_angle - last_error_angle) / dt;
+[5.141s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.157s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:72:43:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_error_angle[m[K’ was not declared in this scope
+[5.157s]    72 | gle = (error_angle - [01;31m[Klast_error_angle[m[K) / dt;
+[5.157s]       |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.158s] 
+[5.170s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_speed[m[K’ was not declared in this scope
+[5.170s]    73 |         [01;31m[Ktarget_speed[m[K = kp_angle * error_angle + ki_angle * integral_angle + kd_angle * derivative_angle;
+[5.170s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[5.180s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:73:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kkp_angle[m[K’ was not declared in this scope
+[5.180s]    73 |       target_speed = [01;31m[Kkp_angle[m[K * error_angle + ki_angle * integral_angle + kd_angle * derivative_angle;
+[5.181s]       |                      [01;31m[K^~~~~~~~[m[K
+[5.181s] 
+[5.190s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:73:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kki_angle[m[K’ was not declared in this scope
+[5.190s]    73 | ngle * error_angle + [01;31m[Kki_angle[m[K * integral_angle + kd_angle * derivative_angle;
+[5.190s]       |                      [01;31m[K^~~~~~~~[m[K
+[5.190s] 
+[5.201s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:73:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kkd_angle[m[K’ was not declared in this scope
+[5.202s]    73 | e * integral_angle + [01;31m[Kkd_angle[m[K * derivative_angle;
+[5.202s]       |                      [01;31m[K^~~~~~~~[m[K
+[5.202s] 
+[5.202s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:[m[K At global scope:
+[5.202s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:100:5:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Subscription<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void>, std_msgs::msg::Float64_<std::allocator<void> >, std_msgs::msg::Float64_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> > >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+[5.202s]   100 |     [01;31m[Krclcpp[m[K::Subscription<std_msgs::msg::Float64>::SharedPtr velocity_sub_;
+[5.203s]       |     [01;31m[K^~~~~~[m[K
+[5.212s] [01m[K/workspaces/ros2project/src/pid2/src/pid.cpp:137:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[5.212s]   137 | [01;31m[K}[m[K;
+[5.212s]       | [01;31m[K^[m[K
+[8.994s] gmake[2]: *** [CMakeFiles/pid.dir/build.make:76: CMakeFiles/pid.dir/src/pid.cpp.o] Error 1
+[8.994s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pid.dir/all] Error 2
+[8.995s] gmake: *** [Makefile:146: all] Error 2
+[8.999s] Invoked command in '/workspaces/ros2project/build/pid2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/pid2 -- -j8 -l8

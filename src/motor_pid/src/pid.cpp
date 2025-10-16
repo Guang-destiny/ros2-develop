@@ -14,7 +14,7 @@ public:
         ki_ = 0.00;
         kd_ = 0.0001;
 
-        target_velocity_ = 300.0;  //目标转速(rad/s)
+        target_velocity_ = 500.0;  //目标转速(rad/s)
 
         velocity_sub_ = this->create_subscription<std_msgs::msg::Float64>(
             "/simulated_motor_velocity", 10,
@@ -31,12 +31,9 @@ private:
     {
 
         double new_value = msg->data;
+
         //中值滤波
-        filtered_value_ = alpha_ * new_value + (1 - alpha_) * filtered_value_;
-        lowpass_msg.data = filtered_value_;
-        
-        //中值滤波
-        data_buffer_.push_back(lowpass_msg.data);
+        data_buffer_.push_back(new_value);
         if (data_buffer_.size() > window_size_) {
             data_buffer_.pop_front();
         }
@@ -45,13 +42,14 @@ private:
             std::sort(temp.begin(), temp.end());
             double median = temp[window_size_ / 2];
 
-            
             median_msg.data = median;
-           
+
         }
-
-
-        double current_velocity = median_msg.data;
+        //中值滤波
+        filtered_value_ = alpha_ * median_msg.data + (1 - alpha_) * filtered_value_;
+        lowpass_msg.data = filtered_value_;
+        
+        double current_velocity = lowpass_msg.data;
 
         //计算误差
         double error = target_velocity_ - current_velocity;

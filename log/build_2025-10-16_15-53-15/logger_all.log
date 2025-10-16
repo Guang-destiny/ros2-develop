@@ -1,0 +1,415 @@
+[0.143s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.143s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e01a0c4b7a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e01a0c4b470>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e01a0c4b470>>, mixin_verb=('build',))
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.204s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/ros2project'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/filter) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/filter) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/filter) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/filter) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/filter) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/filter) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/filter) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/filter) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/filter) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/filter' with type 'ros.ament_cmake' and name 'filter'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_pid) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_pid) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_pid) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_pid) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_pid) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_pid) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_pid) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_pid) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_pid) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_pid' with type 'ros.ament_cmake' and name 'motor_pid'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_simulator) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_simulator) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_simulator) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_simulator) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_simulator) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_simulator) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_simulator) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_simulator) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_simulator' with type 'ros.ament_cmake' and name 'motor_simulator'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task1' with type 'ros.ament_cmake' and name 'task1'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task2' with type 'ros.ament_cmake' and name 'task2'
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'filter' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'filter' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/ros2project/build/filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/ros2project/install/filter', 'merge_install': False, 'path': '/workspaces/ros2project/src/filter', 'symlink_install': False, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'motor_pid' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'motor_pid' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'motor_pid' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'motor_pid' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'motor_pid' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'motor_pid' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'motor_pid' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'motor_pid' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'motor_pid' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.294s] DEBUG:colcon.colcon_core.verb:Building package 'motor_pid' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/ros2project/build/motor_pid', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/ros2project/install/motor_pid', 'merge_install': False, 'path': '/workspaces/ros2project/src/motor_pid', 'symlink_install': False, 'test_result_base': None}
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'motor_simulator' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'motor_simulator' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'motor_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'motor_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'motor_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'motor_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'motor_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'motor_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'motor_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.294s] DEBUG:colcon.colcon_core.verb:Building package 'motor_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/ros2project/build/motor_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/ros2project/install/motor_simulator', 'merge_install': False, 'path': '/workspaces/ros2project/src/motor_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'task1' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'task1' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'task1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'task1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'task1' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'task1' build argument 'cmake_force_configure' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'task1' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'task1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'task1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'task1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/ros2project/build/task1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/ros2project/install/task1', 'merge_install': False, 'path': '/workspaces/ros2project/src/task1', 'symlink_install': False, 'test_result_base': None}
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'task2' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'task2' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'task2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'task2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'task2' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'task2' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'task2' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'task2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'task2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'task2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/ros2project/build/task2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/ros2project/install/task2', 'merge_install': False, 'path': '/workspaces/ros2project/src/task2', 'symlink_install': False, 'test_result_base': None}
+[0.295s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.297s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.297s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/ros2project/src/filter' with build type 'ament_cmake'
+[0.297s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/ros2project/src/filter'
+[0.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.302s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/workspaces/ros2project/install/task2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.302s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/workspaces/ros2project/install/task1' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.303s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/workspaces/ros2project/install/motor_simulator' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.303s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/workspaces/ros2project/install/filter' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.303s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/workspaces/ros2project/install/cpp_pubsub' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.303s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/workspaces/ros2project/install/task2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.304s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/workspaces/ros2project/install/task1' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.304s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/workspaces/ros2project/install/motor_simulator' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.304s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/workspaces/ros2project/install/filter' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.305s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/workspaces/ros2project/install/cpp_pubsub' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/ros2project/src/motor_pid' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/ros2project/src/motor_pid'
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/ros2project/src/motor_simulator' with build type 'ament_cmake'
+[0.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/ros2project/src/motor_simulator'
+[0.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/ros2project/src/task1' with build type 'ament_cmake'
+[0.328s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/ros2project/src/task1'
+[0.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/ros2project/src/task2' with build type 'ament_cmake'
+[0.335s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/ros2project/src/task2'
+[0.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/src/filter -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/filter
+[0.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/motor_pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/motor_pid -- -j8 -l8
+[0.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/motor_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/src/motor_simulator -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/motor_simulator
+[0.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/task1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/src/task1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/task1
+[0.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/task2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/src/task2 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/task2
+[0.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/motor_pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/motor_pid -- -j8 -l8
+[0.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/motor_pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/motor_pid
+[0.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_pid)
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/motor_pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/motor_pid
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid' for CMake module files
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid' for CMake config files
+[0.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_pid', 'cmake_prefix_path')
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/motor_pid/share/motor_pid/hook/cmake_prefix_path.ps1'
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2project/install/motor_pid/share/motor_pid/hook/cmake_prefix_path.dsv'
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/motor_pid/share/motor_pid/hook/cmake_prefix_path.sh'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid/lib'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid/bin'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid/lib/pkgconfig/motor_pid.pc'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid/lib/python3.12/site-packages'
+[0.753s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid/bin'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_pid/share/motor_pid/package.ps1'
+[0.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2project/install/motor_pid/share/motor_pid/package.dsv'
+[0.766s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_pid/share/motor_pid/package.sh'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_pid/share/motor_pid/package.bash'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_pid/share/motor_pid/package.zsh'
+[0.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2project/install/motor_pid/share/colcon-core/packages/motor_pid)
+[0.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_pid)
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid' for CMake module files
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid' for CMake config files
+[0.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_pid', 'cmake_prefix_path')
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/motor_pid/share/motor_pid/hook/cmake_prefix_path.ps1'
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2project/install/motor_pid/share/motor_pid/hook/cmake_prefix_path.dsv'
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/motor_pid/share/motor_pid/hook/cmake_prefix_path.sh'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid/lib'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid/bin'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid/lib/pkgconfig/motor_pid.pc'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid/lib/python3.12/site-packages'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_pid/bin'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_pid/share/motor_pid/package.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2project/install/motor_pid/share/motor_pid/package.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_pid/share/motor_pid/package.sh'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_pid/share/motor_pid/package.bash'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_pid/share/motor_pid/package.zsh'
+[0.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2project/install/motor_pid/share/colcon-core/packages/motor_pid)
+[3.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/motor_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/src/motor_simulator -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/motor_simulator
+[3.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/motor_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/motor_simulator -- -j8 -l8
+[3.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/task1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/src/task1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/task1
+[3.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/task1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task1 -- -j8 -l8
+[3.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/task2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/src/task2 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/task2
+[3.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/task2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task2 -- -j8 -l8
+[3.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/src/filter -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/filter
+[3.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/filter -- -j8 -l8
+[32.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/task1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task1 -- -j8 -l8
+[32.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/task1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/task1
+[32.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task1)
+[32.477s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1' for CMake module files
+[32.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/task1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/task1
+[32.479s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1' for CMake config files
+[32.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('task1', 'cmake_prefix_path')
+[32.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/task1/share/task1/hook/cmake_prefix_path.ps1'
+[32.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2project/install/task1/share/task1/hook/cmake_prefix_path.dsv'
+[32.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/task1/share/task1/hook/cmake_prefix_path.sh'
+[32.484s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1/lib'
+[32.485s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1/bin'
+[32.485s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1/lib/pkgconfig/task1.pc'
+[32.486s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1/lib/python3.12/site-packages'
+[32.486s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1/bin'
+[32.489s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task1/share/task1/package.ps1'
+[32.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2project/install/task1/share/task1/package.dsv'
+[32.492s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task1/share/task1/package.sh'
+[32.493s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task1/share/task1/package.bash'
+[32.494s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task1/share/task1/package.zsh'
+[32.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2project/install/task1/share/colcon-core/packages/task1)
+[32.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task1)
+[32.498s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1' for CMake module files
+[32.500s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1' for CMake config files
+[32.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('task1', 'cmake_prefix_path')
+[32.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/task1/share/task1/hook/cmake_prefix_path.ps1'
+[32.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2project/install/task1/share/task1/hook/cmake_prefix_path.dsv'
+[32.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/task1/share/task1/hook/cmake_prefix_path.sh'
+[32.506s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1/lib'
+[32.506s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1/bin'
+[32.507s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1/lib/pkgconfig/task1.pc'
+[32.508s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1/lib/python3.12/site-packages'
+[32.509s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task1/bin'
+[32.509s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task1/share/task1/package.ps1'
+[32.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2project/install/task1/share/task1/package.dsv'
+[32.512s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task1/share/task1/package.sh'
+[32.513s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task1/share/task1/package.bash'
+[32.514s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task1/share/task1/package.zsh'
+[32.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2project/install/task1/share/colcon-core/packages/task1)
+[32.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/filter -- -j8 -l8
+[32.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/filter
+[32.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(filter)
+[32.933s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter' for CMake module files
+[32.934s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter' for CMake config files
+[32.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('filter', 'cmake_prefix_path')
+[32.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/filter/share/filter/hook/cmake_prefix_path.ps1'
+[32.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/filter
+[32.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2project/install/filter/share/filter/hook/cmake_prefix_path.dsv'
+[32.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/filter/share/filter/hook/cmake_prefix_path.sh'
+[32.944s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter/lib'
+[32.945s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter/bin'
+[32.945s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter/lib/pkgconfig/filter.pc'
+[32.945s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter/lib/python3.12/site-packages'
+[32.946s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter/bin'
+[32.946s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/filter/share/filter/package.ps1'
+[32.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2project/install/filter/share/filter/package.dsv'
+[32.950s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/filter/share/filter/package.sh'
+[32.952s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/filter/share/filter/package.bash'
+[32.953s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/filter/share/filter/package.zsh'
+[32.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2project/install/filter/share/colcon-core/packages/filter)
+[32.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(filter)
+[32.960s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter' for CMake module files
+[32.961s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter' for CMake config files
+[32.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('filter', 'cmake_prefix_path')
+[32.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/filter/share/filter/hook/cmake_prefix_path.ps1'
+[32.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2project/install/filter/share/filter/hook/cmake_prefix_path.dsv'
+[32.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/filter/share/filter/hook/cmake_prefix_path.sh'
+[32.965s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter/lib'
+[32.966s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter/bin'
+[32.966s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter/lib/pkgconfig/filter.pc'
+[32.966s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter/lib/python3.12/site-packages'
+[32.967s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/filter/bin'
+[32.968s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/filter/share/filter/package.ps1'
+[32.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2project/install/filter/share/filter/package.dsv'
+[32.975s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/filter/share/filter/package.sh'
+[32.977s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/filter/share/filter/package.bash'
+[32.978s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/filter/share/filter/package.zsh'
+[32.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2project/install/filter/share/colcon-core/packages/filter)
+[33.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/task2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task2 -- -j8 -l8
+[33.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/task2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/task2
+[33.442s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task2)
+[33.443s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2' for CMake module files
+[33.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/task2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/task2
+[33.445s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2' for CMake config files
+[33.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('task2', 'cmake_prefix_path')
+[33.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/task2/share/task2/hook/cmake_prefix_path.ps1'
+[33.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2project/install/task2/share/task2/hook/cmake_prefix_path.dsv'
+[33.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/task2/share/task2/hook/cmake_prefix_path.sh'
+[33.448s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2/lib'
+[33.448s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2/bin'
+[33.448s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2/lib/pkgconfig/task2.pc'
+[33.449s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2/lib/python3.12/site-packages'
+[33.449s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2/bin'
+[33.450s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task2/share/task2/package.ps1'
+[33.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2project/install/task2/share/task2/package.dsv'
+[33.453s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task2/share/task2/package.sh'
+[33.458s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task2/share/task2/package.bash'
+[33.458s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task2/share/task2/package.zsh'
+[33.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2project/install/task2/share/colcon-core/packages/task2)
+[33.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task2)
+[33.461s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2' for CMake module files
+[33.462s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2' for CMake config files
+[33.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('task2', 'cmake_prefix_path')
+[33.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/task2/share/task2/hook/cmake_prefix_path.ps1'
+[33.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2project/install/task2/share/task2/hook/cmake_prefix_path.dsv'
+[33.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/task2/share/task2/hook/cmake_prefix_path.sh'
+[33.464s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2/lib'
+[33.465s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2/bin'
+[33.465s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2/lib/pkgconfig/task2.pc'
+[33.465s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2/lib/python3.12/site-packages'
+[33.466s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/task2/bin'
+[33.466s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task2/share/task2/package.ps1'
+[33.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2project/install/task2/share/task2/package.dsv'
+[33.469s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task2/share/task2/package.sh'
+[33.470s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task2/share/task2/package.bash'
+[33.472s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/task2/share/task2/package.zsh'
+[33.473s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2project/install/task2/share/colcon-core/packages/task2)
+[38.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/motor_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/motor_simulator -- -j8 -l8
+[38.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ros2project/build/motor_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/motor_simulator
+[38.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_simulator)
+[38.511s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator' for CMake module files
+[38.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ros2project/build/motor_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/motor_simulator
+[38.513s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator' for CMake config files
+[38.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_simulator', 'cmake_prefix_path')
+[38.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/hook/cmake_prefix_path.ps1'
+[38.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/hook/cmake_prefix_path.dsv'
+[38.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/hook/cmake_prefix_path.sh'
+[38.516s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator/lib'
+[38.516s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator/bin'
+[38.517s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator/lib/pkgconfig/motor_simulator.pc'
+[38.517s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator/lib/python3.12/site-packages'
+[38.517s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator/bin'
+[38.518s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.ps1'
+[38.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.dsv'
+[38.520s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.sh'
+[38.522s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.bash'
+[38.523s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.zsh'
+[38.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2project/install/motor_simulator/share/colcon-core/packages/motor_simulator)
+[38.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_simulator)
+[38.527s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator' for CMake module files
+[38.527s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator' for CMake config files
+[38.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_simulator', 'cmake_prefix_path')
+[38.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/hook/cmake_prefix_path.ps1'
+[38.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/hook/cmake_prefix_path.dsv'
+[38.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/hook/cmake_prefix_path.sh'
+[38.531s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator/lib'
+[38.531s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator/bin'
+[38.531s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator/lib/pkgconfig/motor_simulator.pc'
+[38.531s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator/lib/python3.12/site-packages'
+[38.531s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ros2project/install/motor_simulator/bin'
+[38.532s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.ps1'
+[38.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.dsv'
+[38.533s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.sh'
+[38.534s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.bash'
+[38.536s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.zsh'
+[38.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ros2project/install/motor_simulator/share/colcon-core/packages/motor_simulator)
+[38.545s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[38.546s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[38.547s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[38.547s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[38.563s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[38.563s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[38.564s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[38.564s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[38.568s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[38.569s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[38.569s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/ros2project/install/local_setup.ps1'
+[38.571s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/ros2project/install/_local_setup_util_ps1.py'
+[38.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/ros2project/install/setup.ps1'
+[38.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/ros2project/install/local_setup.sh'
+[38.581s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/ros2project/install/_local_setup_util_sh.py'
+[38.582s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/ros2project/install/setup.sh'
+[38.584s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/ros2project/install/local_setup.bash'
+[38.584s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/ros2project/install/setup.bash'
+[38.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/ros2project/install/local_setup.zsh'
+[38.586s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/ros2project/install/setup.zsh'

@@ -1,0 +1,25 @@
+[0.037s] Invoking command in '/workspaces/ros2project/build/motor_pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/motor_pid -- -j8 -l8
+[0.240s] [ 50%] [32mBuilding CXX object CMakeFiles/pid.dir/src/pid.cpp.o[0m
+[15.003s] [100%] [32m[1mLinking CXX executable pid[0m
+[15.498s] [100%] Built target pid
+[15.519s] Invoked command in '/workspaces/ros2project/build/motor_pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/motor_pid -- -j8 -l8
+[15.536s] Invoking command in '/workspaces/ros2project/build/motor_pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/motor_pid
+[15.548s] -- Install configuration: ""
+[15.549s] -- Installing: /workspaces/ros2project/install/motor_pid/lib/motor_pid/pid
+[15.591s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2project/install/motor_pid/lib/motor_pid/pid" to ""
+[15.592s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/ament_index/resource_index/package_run_dependencies/motor_pid
+[15.592s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/ament_index/resource_index/parent_prefix_path/motor_pid
+[15.593s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/motor_pid/environment/ament_prefix_path.sh
+[15.593s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/motor_pid/environment/ament_prefix_path.dsv
+[15.593s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/motor_pid/environment/path.sh
+[15.593s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/motor_pid/environment/path.dsv
+[15.593s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/motor_pid/local_setup.bash
+[15.594s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/motor_pid/local_setup.sh
+[15.594s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/motor_pid/local_setup.zsh
+[15.594s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/motor_pid/local_setup.dsv
+[15.594s] -- Installing: /workspaces/ros2project/install/motor_pid/share/motor_pid/package.dsv
+[15.595s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/ament_index/resource_index/packages/motor_pid
+[15.595s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/motor_pid/cmake/motor_pidConfig.cmake
+[15.595s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/motor_pid/cmake/motor_pidConfig-version.cmake
+[15.596s] -- Up-to-date: /workspaces/ros2project/install/motor_pid/share/motor_pid/package.xml
+[15.598s] Invoked command in '/workspaces/ros2project/build/motor_pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/motor_pid

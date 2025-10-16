@@ -1,0 +1,16 @@
+/workspaces/ros2project/install/pid2/lib/pid2/pid
+/workspaces/ros2project/install/pid2/share/ament_index/resource_index/package_run_dependencies/pid2
+/workspaces/ros2project/install/pid2/share/ament_index/resource_index/parent_prefix_path/pid2
+/workspaces/ros2project/install/pid2/share/pid2/environment/ament_prefix_path.sh
+/workspaces/ros2project/install/pid2/share/pid2/environment/ament_prefix_path.dsv
+/workspaces/ros2project/install/pid2/share/pid2/environment/path.sh
+/workspaces/ros2project/install/pid2/share/pid2/environment/path.dsv
+/workspaces/ros2project/install/pid2/share/pid2/local_setup.bash
+/workspaces/ros2project/install/pid2/share/pid2/local_setup.sh
+/workspaces/ros2project/install/pid2/share/pid2/local_setup.zsh
+/workspaces/ros2project/install/pid2/share/pid2/local_setup.dsv
+/workspaces/ros2project/install/pid2/share/pid2/package.dsv
+/workspaces/ros2project/install/pid2/share/ament_index/resource_index/packages/pid2
+/workspaces/ros2project/install/pid2/share/pid2/cmake/pid2Config.cmake
+/workspaces/ros2project/install/pid2/share/pid2/cmake/pid2Config-version.cmake
+/workspaces/ros2project/install/pid2/share/pid2/package.xml

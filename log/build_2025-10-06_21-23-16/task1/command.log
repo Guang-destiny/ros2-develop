@@ -1,6 +1,0 @@
-Invoking command in '/workspaces/ros2project/build/task1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/task1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/task1
-Invoked command in '/workspaces/ros2project/build/task1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/task1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/task1
-Invoking command in '/workspaces/ros2project/build/task1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task1 -- -j8 -l8
-Invoked command in '/workspaces/ros2project/build/task1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/task1 -- -j8 -l8
-Invoking command in '/workspaces/ros2project/build/task1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/task1
-Invoked command in '/workspaces/ros2project/build/task1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/task1

@@ -1,0 +1,4 @@
+Invoking command in '/workspaces/ros2project/build/filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/filter -- -j8 -l8
+Invoked command in '/workspaces/ros2project/build/filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/filter -- -j8 -l8
+Invoking command in '/workspaces/ros2project/build/filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/filter
+Invoked command in '/workspaces/ros2project/build/filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/filter

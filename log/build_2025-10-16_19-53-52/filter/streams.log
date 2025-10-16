@@ -1,0 +1,27 @@
+[0.014s] Invoking command in '/workspaces/ros2project/build/filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/filter -- -j8 -l8
+[0.077s] [ 25%] [32mBuilding CXX object CMakeFiles/filter.dir/src/data_filter.cpp.o[0m
+[0.079s] [ 75%] Built target publisher
+[7.403s] [100%] [32m[1mLinking CXX executable filter[0m
+[7.666s] [100%] Built target filter
+[7.676s] Invoked command in '/workspaces/ros2project/build/filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/filter -- -j8 -l8
+[7.694s] Invoking command in '/workspaces/ros2project/build/filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/filter
+[7.755s] -- Install configuration: ""
+[7.756s] -- Up-to-date: /workspaces/ros2project/install/filter/lib/filter/publisher
+[7.756s] -- Installing: /workspaces/ros2project/install/filter/lib/filter/filter
+[7.820s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2project/install/filter/lib/filter/filter" to ""
+[7.821s] -- Up-to-date: /workspaces/ros2project/install/filter/share/ament_index/resource_index/package_run_dependencies/filter
+[7.821s] -- Up-to-date: /workspaces/ros2project/install/filter/share/ament_index/resource_index/parent_prefix_path/filter
+[7.821s] -- Up-to-date: /workspaces/ros2project/install/filter/share/filter/environment/ament_prefix_path.sh
+[7.821s] -- Up-to-date: /workspaces/ros2project/install/filter/share/filter/environment/ament_prefix_path.dsv
+[7.821s] -- Up-to-date: /workspaces/ros2project/install/filter/share/filter/environment/path.sh
+[7.821s] -- Up-to-date: /workspaces/ros2project/install/filter/share/filter/environment/path.dsv
+[7.821s] -- Up-to-date: /workspaces/ros2project/install/filter/share/filter/local_setup.bash
+[7.821s] -- Up-to-date: /workspaces/ros2project/install/filter/share/filter/local_setup.sh
+[7.821s] -- Up-to-date: /workspaces/ros2project/install/filter/share/filter/local_setup.zsh
+[7.822s] -- Up-to-date: /workspaces/ros2project/install/filter/share/filter/local_setup.dsv
+[7.822s] -- Installing: /workspaces/ros2project/install/filter/share/filter/package.dsv
+[7.822s] -- Up-to-date: /workspaces/ros2project/install/filter/share/ament_index/resource_index/packages/filter
+[7.822s] -- Up-to-date: /workspaces/ros2project/install/filter/share/filter/cmake/filterConfig.cmake
+[7.822s] -- Up-to-date: /workspaces/ros2project/install/filter/share/filter/cmake/filterConfig-version.cmake
+[7.822s] -- Up-to-date: /workspaces/ros2project/install/filter/share/filter/package.xml
+[7.824s] Invoked command in '/workspaces/ros2project/build/filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/filter

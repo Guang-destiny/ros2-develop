@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/ros2project/build/motor_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/src/motor_simulator -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/motor_simulator
+Invoked command in '/workspaces/ros2project/build/motor_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/src/motor_simulator -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/motor_simulator
+Invoking command in '/workspaces/ros2project/build/motor_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/motor_simulator -- -j8 -l8
+Invoked command in '/workspaces/ros2project/build/motor_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/motor_simulator -- -j8 -l8
+Invoking command in '/workspaces/ros2project/build/motor_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/motor_simulator
+Invoked command in '/workspaces/ros2project/build/motor_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/motor_simulator

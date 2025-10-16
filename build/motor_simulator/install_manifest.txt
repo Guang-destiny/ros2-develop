@@ -1,0 +1,17 @@
+/workspaces/ros2project/install/motor_simulator/lib/motor_simulator/motor_simulator_node
+/workspaces/ros2project/install/motor_simulator/include/motor_simulator/motor_model.hpp
+/workspaces/ros2project/install/motor_simulator/share/ament_index/resource_index/package_run_dependencies/motor_simulator
+/workspaces/ros2project/install/motor_simulator/share/ament_index/resource_index/parent_prefix_path/motor_simulator
+/workspaces/ros2project/install/motor_simulator/share/motor_simulator/environment/ament_prefix_path.sh
+/workspaces/ros2project/install/motor_simulator/share/motor_simulator/environment/ament_prefix_path.dsv
+/workspaces/ros2project/install/motor_simulator/share/motor_simulator/environment/path.sh
+/workspaces/ros2project/install/motor_simulator/share/motor_simulator/environment/path.dsv
+/workspaces/ros2project/install/motor_simulator/share/motor_simulator/local_setup.bash
+/workspaces/ros2project/install/motor_simulator/share/motor_simulator/local_setup.sh
+/workspaces/ros2project/install/motor_simulator/share/motor_simulator/local_setup.zsh
+/workspaces/ros2project/install/motor_simulator/share/motor_simulator/local_setup.dsv
+/workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.dsv
+/workspaces/ros2project/install/motor_simulator/share/ament_index/resource_index/packages/motor_simulator
+/workspaces/ros2project/install/motor_simulator/share/motor_simulator/cmake/motor_simulatorConfig.cmake
+/workspaces/ros2project/install/motor_simulator/share/motor_simulator/cmake/motor_simulatorConfig-version.cmake
+/workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.xml

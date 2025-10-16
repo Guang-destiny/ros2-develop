@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000670] (-) JobUnselected: {'identifier': 'filter'}
+[0.000786] (-) JobUnselected: {'identifier': 'motor_pid'}
+[0.000857] (-) JobUnselected: {'identifier': 'motor_simulator'}
+[0.000918] (-) JobUnselected: {'identifier': 'task1'}
+[0.000969] (-) JobUnselected: {'identifier': 'task2'}
+[0.001455] (-) EventReactorShutdown: {}

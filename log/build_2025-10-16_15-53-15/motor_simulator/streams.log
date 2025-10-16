@@ -1,0 +1,59 @@
+[0.057s] Invoking command in '/workspaces/ros2project/build/motor_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/src/motor_simulator -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/motor_simulator
+[0.199s] -- The C compiler identification is GNU 14.2.0
+[0.462s] -- The CXX compiler identification is GNU 14.2.0
+[0.550s] -- Detecting C compiler ABI info
+[0.830s] -- Detecting C compiler ABI info - done
+[0.861s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.861s] -- Detecting C compile features
+[0.861s] -- Detecting C compile features - done
+[0.898s] -- Detecting CXX compiler ABI info
+[1.224s] -- Detecting CXX compiler ABI info - done
+[1.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.259s] -- Detecting CXX compile features
+[1.259s] -- Detecting CXX compile features - done
+[1.270s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.651s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.945s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.060s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.094s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.499s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.506s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.708s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.782s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.858s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.102s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.159s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.476s] -- Configuring done (3.4s)
+[3.523s] -- Generating done (0.0s)
+[3.535s] -- Build files have been written to: /workspaces/ros2project/build/motor_simulator
+[3.565s] Invoked command in '/workspaces/ros2project/build/motor_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspaces/ros2project/src/motor_simulator -DCMAKE_INSTALL_PREFIX=/workspaces/ros2project/install/motor_simulator
+[3.566s] Invoking command in '/workspaces/ros2project/build/motor_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/motor_simulator -- -j8 -l8
+[3.700s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_simulator_node.dir/src/motor_simulator_node.cpp.o[0m
+[37.372s] [100%] [32m[1mLinking CXX executable motor_simulator_node[0m
+[38.115s] [100%] Built target motor_simulator_node
+[38.146s] Invoked command in '/workspaces/ros2project/build/motor_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspaces/ros2project/build/motor_simulator -- -j8 -l8
+[38.148s] Invoking command in '/workspaces/ros2project/build/motor_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/motor_simulator
+[38.164s] -- Install configuration: ""
+[38.165s] -- Installing: /workspaces/ros2project/install/motor_simulator/lib/motor_simulator/motor_simulator_node
+[38.177s] -- Set non-toolchain portion of runtime path of "/workspaces/ros2project/install/motor_simulator/lib/motor_simulator/motor_simulator_node" to ""
+[38.177s] -- Installing: /workspaces/ros2project/install/motor_simulator/include
+[38.177s] -- Installing: /workspaces/ros2project/install/motor_simulator/include/motor_simulator
+[38.178s] -- Installing: /workspaces/ros2project/install/motor_simulator/include/motor_simulator/motor_model.hpp
+[38.180s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/ament_index/resource_index/package_run_dependencies/motor_simulator
+[38.180s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/ament_index/resource_index/parent_prefix_path/motor_simulator
+[38.181s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/motor_simulator/environment/ament_prefix_path.sh
+[38.181s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/motor_simulator/environment/ament_prefix_path.dsv
+[38.182s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/motor_simulator/environment/path.sh
+[38.182s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/motor_simulator/environment/path.dsv
+[38.182s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/motor_simulator/local_setup.bash
+[38.182s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/motor_simulator/local_setup.sh
+[38.183s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/motor_simulator/local_setup.zsh
+[38.183s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/motor_simulator/local_setup.dsv
+[38.183s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.dsv
+[38.184s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/ament_index/resource_index/packages/motor_simulator
+[38.185s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/motor_simulator/cmake/motor_simulatorConfig.cmake
+[38.186s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/motor_simulator/cmake/motor_simulatorConfig-version.cmake
+[38.187s] -- Installing: /workspaces/ros2project/install/motor_simulator/share/motor_simulator/package.xml
+[38.192s] Invoked command in '/workspaces/ros2project/build/motor_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspaces/ros2project/build/motor_simulator
